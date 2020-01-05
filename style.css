@@ -1,0 +1,14 @@
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10vw;
+  margin: 0 auto;
+  color: black;
+  text-shadow: 0 10px 10px black;
+}
+
+#main-title {
+  padding: 20% 10% 1% 10%;
+}
