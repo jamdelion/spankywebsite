@@ -5,15 +5,27 @@ h1 {
   font-family: "Verdana";
   font-size: 7vw;
   margin: 0 auto;
-  color: black;
-  text-shadow: 0 10px 10px black;
+  color: white;
+  text-shadow: 0 10px 10px grey;
+}
+
+body {
+  background-color: black;
 }
 
 #main-title {
-  padding: 10% 10% 1% 10%;
+  padding: 10% 10% 5% 10%;
 }
 
 #sub-title {
-  margin: 0 auto;
   text-align: center;
+  color: white;
+  font-family: "Verdana";
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
