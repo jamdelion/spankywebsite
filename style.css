@@ -3,7 +3,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-family: "Verdana";
-  font-size: 7vw;
+  font-size: 3vw;
   margin: 0 auto;
   color: white;
   text-shadow: 0 10px 10px grey;
@@ -29,6 +29,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  object-fit: cover;
+  height: 550px;
 }
 
 #music-icons {
@@ -45,6 +47,22 @@ body {
   color: rgb(204, 80, 80);
 }
 
+#downward-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.7s ease;
+  color: white;
+  padding: 1em;
+}
+
+#downward-arrow:hover {
+  transform: translate(0px, 20px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* IMAGE GALLERY */
 
