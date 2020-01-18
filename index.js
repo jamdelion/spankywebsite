@@ -38,6 +38,11 @@
     images[2] = "images/img3.JPG";
     images[3] = "images/img4.jpg";
     images[4] = "images/img5.jpg";
+    images[5] = "images/img6.jpg";
+    images[6] = "images/img7.jpg";
+    images[7] = "images/img8.jpg";
+    images[8] = "images/img9.jpg";
+    images[9] = "images/img10.jpg";
     // set initial slide to img1
     slide.src = images[0];
 
@@ -145,7 +150,8 @@
 
     // end of init function
   }
-
+  //on start , init function executes
+  document.addEventListener("DOMContentLoaded", init);
 
 
 })(); //end of function wrapper
