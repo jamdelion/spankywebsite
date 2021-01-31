@@ -1,163 +1,481 @@
+/* Text elements */
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat";
+}
+
 h1 {
-  font-size: 3em;
-  text-align: center;
-  font-weight: bold;
-  font-family: "Verdana";
-  font-size: 3vw;
-  margin: 0 auto;
-  color: white;
-  text-shadow: 0 10px 10px grey;
+    text-align: center;
+    font-family: "Fredoka One";
+    font-size: 4em;
+    text-shadow: lightblue 1px 6px 2px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    margin-bottom: 1%;
 }
 
-body {
-  background-color: black;
+p {
+    font-family: "Titillium Web";
+    color: rgb(80, 85, 92);
+    font-size: 1em;
+    letter-spacing: -0.3px;
+    line-height: 1.45;
 }
 
-#main-title {
-  padding: 10% 10% 5% 10%;
+h3 {
+    font-weight: normal;
+    color: rgb(180, 187, 192);
 }
 
-#sub-title, #email-us {
-  text-align: center;
-  color: white;
-  font-family: "Verdana";
-  padding: 0 0 30px 0;
+#what-we-do h3 {
+    margin: 0 0 2em 0;
 }
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  object-fit: cover;
-  height: 550px;
+h4 {
+    font-weight: normal;
+    font-size: 1.2em;
 }
 
-#music-icons {
-  text-align: center;
+.question-text h4, .question-text p {
+    margin: 0;
 }
 
-#fb-icon, #ig-icon, #yt-icon {
-  color: white;
-  padding: 0px 25px;
-  transition-duration: 0.4s;
+.question-text h4 {
+    height: 40px;
 }
 
-#fb-icon:hover, #ig-icon:hover, #yt-icon:hover {
-  color: rgb(204, 80, 80);
+h5 { 
+    font-weight: normal;
+    font-family: "Titillium Web";
+    font-size: 1.2em;
+    letter-spacing: 0.3px;
+    color: rgb(180, 187, 192);
+    margin: 0;
+    padding: 0 0 1% 0;
 }
 
-#downward-arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.7s ease;
-  color: white;
-  padding: 1em;
+h2 {
+    text-transform: uppercase;
+    font-size: 3.8em;
+    text-align: center;
 }
 
-#downward-arrow:hover {
-  transform: translate(0px, 20px);
+#press-kit h3, #get-the-party-started h3 {
+    color: white;
 }
 
-html {
-  scroll-behavior: smooth;
+#get-the-party-started h2, #get-the-party-started h3, #press-kit h2, #press-kit h3, #faq-title h2, #links h2, #social-media-links{
+    position: relative;
+    z-index: 2;
 }
 
-/* IMAGE GALLERY */
-
-.galleryContainer {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 850px;
-  border: solid black;
+#gallery h2, #line-up h2, #how-to-book h2, #faqs h2, #testimonials h2, #what-we-do h2 {
+    color: rgb(29, 32, 35);
+    font-size: 2.4em;
+    font-weight:300;
 }
 
-.galleryContainer .slideShowContainer {
-  width: 850px;
-  height: 650px;
-  padding: 20px 20px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
+.band-member p {
+    max-width: 82%;
+    margin: 0 auto;
+    letter-spacing: -0.4px;
 }
 
-.galleryContainer .slideShowContainer .imageHolder {
-  object-fit: cover;
-  }
-
-.imgcarousel {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 2%;
+.testimonial h4 {
+    font-family: "Nunito";
+    font-size: 1.1em;
+    line-height: 1.45;
+    min-height: 102px;
+    margin-bottom: 0;
 }
 
-.imgNavButtons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.testimonial {
+    text-align: center;
+    margin: 10px;
+    max-width: 20vw;
 }
 
-.prev, .next {
-  position: relative;
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 20px;
-  height: 100px;
-  width: 100px;
-  user-select: none;
-  z-index: 99999999;
+/* Structural elements */
+
+section {
+    margin: 2% 0;
 }
 
-#dots {
-  text-align: center;
+body, #about-us, #what-we-do, #line-up, #gallery, #how-to-book, #testimonials,  #faqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.dot {
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  display: inline-block;
-  margin: 20px 2px 20px 2px;
-  background-color: white;
-  padding: 2px;
-  transition: background-color 1s ease;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.active, .dot:hover {
-  background-color: rgb(204, 80, 80);
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Titillium web";
+    text-transform: uppercase;
+    width: 76vw;
+    max-width: 860px;
+    padding: 10px 0;
 }
 
-.fa-chevron-circle-right:hover, .fa-chevron-circle-left:hover {
-  color: rgb(204, 80, 80);
+header a {
+    color:black;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
-.fa-chevron-circle-right, .fa-chevron-circle-left {
-  transition: color 1s ease;
+header a:hover {
+    opacity: 1;
 }
 
-#playPause {
-  display: flex;
-  justify-content: center;
-  margin: 10px 10px;
-  position: relative;
-  z-index: 999999999;
+#about-us {
+    margin: 2% 10%;
+    text-align: center;
+    max-width: 70ch;
 }
 
-#playIcon, #pauseIcon {
-  margin: 5px 5px 0px 5px;
-  transition: color 1s ease;
+#faqs {
+    margin: 2%;
 }
 
-#playIcon:hover, #pauseIcon:hover {
-  color: rgb(204, 80, 80);
+.banner {
+    width: 100%;
+    height: 55vh;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 
-.white {
-  color: white;
+.banner::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    background-color: white;
+}
+
+#events {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 0 4em;
+}
+
+#band-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#booking-steps, #testimonials-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 5em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-content {
+    justify-content: space-between;
+}
+
+#front-4-pics {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    margin-top: 20px;
+}
+
+#get-the-party-started, #press-kit {
+    background: #7984e8;
+    color: white;
+}
+
+#contact-us {
+    width: 30vw;
+    display: flex;
+}
+
+#contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+#email-us {
+    position: absolute;
+    height: 27px;
+    width: 114%;
+    right: -15%;
+    border-radius: 9%;
+    top: -11%;
+    border: solid lightgray;
+    background-color: lightgray;
+    z-index: -1;
+}
+
+#email-link:hover {
+    opacity: 0.6;
+}
+
+#email-link {
+    opacity: 1;
+    position: relative;
+    font-style: "Nunito";
+    font-weight: bold;
+}
+
+/* Image Elements */
+
+#front-4-pics img {
+    width: 25%;
+    margin: 3px;
+    overflow: hidden;
+    height: 80vh;
+    object-fit: cover;
+}
+
+#gallery-container img {
+    max-width: 40vw;
+}
+
+#get-the-party-started::before {
+    background-image: url("images/get-party-started.jpg");
+    background-position: -48% 0px;
+    opacity: 0.8;
+}
+
+#press-kit::before {
+    background-image: url("images/press-kit.jpg");
+    background-position: 27% -46px;
+}
+
+#faq-title::before {
+    background-image: url("images/faqs.jpg");
+    background-size: 160%;
+    background-position: 34% 38%;
+}
+
+#links::before {
+    background-image: url("images/connect.jpg");
+}
+
+#links, #faq-title {
+    color: white;
+}
+
+/* What We Do section */
+
+#what-we-do {
+    max-width: 1600px;
+}
+
+.event {
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-img-container {
+    height: 20vw;
+    width: 95%;
+    margin: 3px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.event img {
+    width: 100%;
+}
+
+#wedding-img {
+    object-position: 0vh -5vw;
+}
+
+#bop-img {
+    width: 195%;
+    object-position: -8vw -6vh;
+}
+
+#ball-img, #club-img, #fest-img {
+    width: 115%;
+}
+
+#work-img {
+    width: 200%;
+    object-position: -9vw -6vh;
+}
+
+.event p {
+    text-align: center;
+    margin: 0 8px 35px 8px;
+}
+
+.event h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Nunito";
+    font-size: 1.5em;
+    line-height: 0;
+}
+
+#event-festivals {
+    grid-column-start: 2;
+}
+
+/* FAQ section */
+
+.question, #footer-content {
+    display: flex;
+}
+
+.question {
+    max-width: 1200px;
+}
+
+.faq-img-container {
+    overflow: hidden;
+    max-height: 320px;
+    max-width: 46%;
+    min-width: 310px;
+    margin: 1% 2%;
+}
+
+.question img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.question-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2%;
+}
+
+#setup-img {
+    object-position: 0px -147px;
+    max-width: 550px;
+}
+
+#medsoc-img {
+    width: 120%;
+    object-position: -60px 0px;
+}
+
+#pose-img {
+    width: 145%;
+    object-position: -74px -31px;
+}
+
+/* Links section */
+
+#footer-logo {
+    width: 30vw;
+}
+
+#divider {
+    width: 90vw;
+    height: 30px;
+    border-top: solid thin black;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#social-media-links i {
+    
+    position: absolute;
+    top: 49%;
+    left: 28%;
+    line-height: 0;
+}
+
+#social-media-links {
+    display: flex;
+}
+
+#social-media-links a {
+    color: white;
+}
+
+.black-circle {
+    border-radius: 50%;
+    background-color: black;
+    width: 6.5em;
+    position: relative;
+    height: 6.5em;
+    margin: 0 5px;
+    transition: transform ease 0.2s;
+    cursor: pointer;
+}
+
+.black-circle:hover {
+    transform: scale(1.2, 1.2);
+}
+
+/* Book Us section */
+
+#how-to-book {
+    position: relative;
+    width: 75vw;
+}
+
+.book-step {
+    padding: 0 0.6em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: anywhere;
+    position: relative;
+}
+
+.book-step h4 {
+    min-height: 48px;
+}
+
+.line-step {
+    position: absolute;
+    top: 27px;
+    left: calc(54% - -39px);
+    width: calc(90% - 80px);
+    height: 1px;
+    border-right: 0;
+    border-top: 1px solid;
+    opacity: 0.3;
+}
+
+.number {
+    border: solid thin;
+    padding: 20px 23px;
 }

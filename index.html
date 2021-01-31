@@ -1,92 +1,325 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Colonel Spanky's Love Ensemble</title>
-    <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "url": "http://www.colonelspankys.co.uk",
-  "name": "Colonel Spanky's Love Ensemble",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "colonelspankys@gmail.com",
-    "contactType": "Bookings & Enquiries"
-  },
-  "logo": "https://www.colonelspankys.co.uk/images/logo.png",
-  "location" : {
-    "addressCountry": "GB",
-    "addressLocality": "Cambridge",
-    "addressRegion": "Cambridgeshire"
-  }
-}
-</script>
-  </head>
-  <body>
-    <div id="top-section">
-      <!-- <h1 id="main-title">Colonel Spanky's Love Ensemble</h1> -->
-      <a href="https://www.facebook.com/Colonel.Spankys.Love.Ensemble/"><img src="images/logo.png" id="logo" alt="Colonel Spanky's logo"></img></a>
-      <div>
-        <a href="#image-gallery"><i class="fas fa-angle-down fa-4x" id="downward-arrow"></i></a>
-      </div>
-      <div id="music-icons">
-        <a href="https://www.facebook.com/Colonel.Spankys.Love.Ensemble/"><i class="fab fa-facebook fa-3x" id="fb-icon"></i></a>
-        <a href="https://www.instagram.com/colonelspankysloveensemble/"><i class="fab fa-instagram fa-3x" id="ig-icon"></i></a>
-        <a href="https://www.youtube.com/user/ColonelSpankys/"><i class="fab fa-youtube fa-3x" id="yt-icon"></i></a>
-      </div>
-      <h2 id="email-us">Email us at <i>colonelspankys@gmail.com</i></h2>
-      <h2 id="sub-title">This website is a work in progress...</h2>
-      <h2 id="sub-title">---------------------------------------------------------------</h2>
-    </div>
+<html lang="en-GB">
 
-    <div id="image-gallery">
-      <h1 id="gallery-title">
-        Gallery
-      </h1>
-      <div id="img-content">
-        <div class="imgcarousel">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Colonel Spanky's Love Ensemble</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+</head>
 
-          <div class="galleryContainer">
-            <div class="slideShowContainer">
-              <img class="imageHolder" alt="Images of Colonel Spanky's Love Ensemble">
-            </div>
-          </div>
-
-          <div class="imgNavButtons">
-            <!-- Previous button -->
-            <div class="prev">
-              <i class="fas fa-chevron-circle-left fa-4x white" id="prev-icon"></i>
-            </div>
-              <!-- Play/Pause button -->
-            <div class="pause play" id="playPause">
-              <i class="fas fa-play fa-2x white" id="playIcon"></i>
-              <i class="fas fa-pause fa-2x white hidden" id="pauseIcon"></i>
-            </div>
-          <!-- Next button -->
-            <div class="next">
-              <i class="fas fa-chevron-circle-right fa-4x white" id="next-icon"></i>
-            </div>
-          </div>
+<body>
+    <header>
+        <h1 id="home">Colonel Spanky's Love Ensemble</h1>
+        <div id="navbar" class="">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about-us">About</a>
+                <a href="#press-kit">Press</a>
+                <a href="#line-up">Line-Up</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#book-us">Book Us</a>
+                <a href="#faq">FAQ</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#links">Connect</a>
+                <a href="mailto:colonelspankys@gmail.com" id="email-link">
+                    Email Us
+                    <div id="email-us"></div>
+                </a>
+            </nav>
         </div>
-
-        <div id="dots">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+    </header>
+    <section id="front-4-pics">
+        <img src="images/tom-front.jpg" alt="Tom playing a trumpet">
+        <img src="images/cameron-front.jpg" alt="Cameron playing an alto saxophone">
+        <img src="images/jas-front.jpg" alt="Jazz holding the spanky logo">
+        <img src="images/inigo-front.jpg" alt="Iñigo playing bass">
+    </section>
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>If you think the best thing to come out of Cambridge is 107 Nobel Prize winners, you've clearly never seen Colonel Spanky's Love Ensemble. Formed in 2009, the brainchild of the city's ten finest funk-mongers came to life within the hallowed halls of Clare College, Cambridge, when a group of undergrads spotted their mutual appreciation for bombastic Riot Jazz and the infectious rhythms of New Orleans Brass bands. Having spent their first years making a name for themselves at gigs in the private student bars and lavish society balls, they have come to form an integral part of the music scene that bridges the town/gown divide in the country's academic capital. </p>
+        <p>With memorably high energy cover performances that span genres as diverse as pop, rap, jazz, funk and ska, the Love Ensemble have appeared on stages alongside the likes of Tinie Tempah, Basshunter, Laura Mvula and Gentleman's Dub Club.</p>
+        <p>Specialising in knees-up dancing, sing-alongs, raucous rapping and sexy saxophone solos, the Love Ensemble will twist anything from 80s pop to smooth soul into the unique Colonel Spanky's sound.</p>
+    </section>
+    <section class="banner" id="get-the-party-started">
+        <h2>Get the party started</h2>
+        <h3>We're available to hire!</h3>
+    </section>
+    <section id="what-we-do">
+        <h2>What We Do</h2>
+        <h3>We've played at hundreds of events, including...</h3>
+        <div id="events">
+            <div class="event">
+                <div class="event-img-container">
+                    <img src="images/wedding.jpg" alt="The bride and groom singing at one of our wedding gigs" id="wedding-img">
+                </div> 
+                <h4>Weddings</h4>
+                <p>Church weddings, marquee weddings, festival weddings, we love 'em all!</p>
+            </div>
+            <div class="event">
+                <div class="event-img-container">
+                    <img src="images/bop.jpeg" alt="A bop at Clare College, c.2013" id="bop-img">
+                </div>
+                <h4>Bops</h4>
+                <p>Cambridge colleges are renowned for their student socials, known as "bops".</p>
+            </div>
+            <div class="event">
+                <div class="event-img-container">
+                    <img src="images/ball.webp" alt="Masked ball-goers" id="ball-img">
+                </div>
+                <h4>May Balls</h4>
+                <p>A typical "May Week" (usually in June) will see us play up to 25 gigs in one week!</p>
+            </div>
+            <div class="event">
+                <div class="event-img-container">
+                    <img src="images/club.webp" alt="A club night" id="club-img">
+                </div>
+                <h4>Club Nights</h4>
+                <p>There's nothing like the sweaty thrill of live music to bring a night out to another level!</p>
+            </div>
+            <div class="event" id="event-festivals">
+                <div class="event-img-container">
+                    <img src="images/festival.jpeg" alt="Hands pumping in front of a festival stage" id="fest-img">
+                </div>
+                <h4>Festivals</h4>
+                <p>The roar of the crowd under the stars...need we say more?</p>
+            </div>
+            <div class="event">
+                <div class="event-img-container">
+                    <img src="images/work-socials.jpeg" alt="3 women clinking glasses at a Christmas party" id="work-img">
+                </div>
+                <h4>Work Socials</h4>
+                <p>The perfect way to let off some steam with your colleagues!</p>
+            </div>
         </div>
+    </section>
+    <section class="banner" id="press-kit">
+        <!-- background image -->
+        <h2>Press Kit</h2>
+        <h3>Email us for more information!</h3>
+    </section>
+    <section id="line-up">
+        <!-- background image -->
+        <h2>Line Up</h2>
+        <h3>We're a 10-piece band, comprising:</h3>
+        <div id="band-members">
+            <div class="band-member">
+                <h4>1 x Trombone</h4>
+                <p>Nick Wise</p>
+            </div>
+            <div class="band-member">
+                <h4>3 x Alto Sax</h4>
+                <p>Cameron Wallis, Billie Rae and Judah Daniels</p>
+            </div>
+            <div class="band-member">
+                <h4>2 x Trumpet</h4>
+                <p>Tom Edinburgh and Holly Jeffrey</p>
+            </div>
+            <div class="band-member">
+                <h4>1 x Tenor Sax</h4>
+                <p>Matt Nixon</p>
+            </div>
+            <div class="band-member">
+                <h4>1 x Vocals</h4>
+                <p>Jasmin Hansell-Rainbow</p>
+            </div>
+            <div class="band-member">
+                <h4>1 x Electric Guitar</h4>
+                <p>Fingal Plumpton</p>
+            </div>
+            <div class="band-member">
+                <h4>1 x Bass Guitar</h4>
+                <p>Iñigo Ayestaran</p>
+            </div>
+            <div class="band-member">
+                <h4>1 x Drums</h4>
+                <p>Jo Humphrey</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <h3>Photos & Videos from recent performances</h3>
+        <!-- <div class="pics">
+            <img src="#" alt="#">
+            <img src="#" alt="#">
+            <img src="#" alt="#">
+            <img src="#" alt="#">
+        </div> -->
+        <div id="gallery-container">
+            <img src="images/gallery-nick.jpg">
+            <img src="images/gallery-pride.jpeg">
+        </div>
+    </section>
+    <section id="how-to-book">
+        <h2>How to Book Us</h2>
+        <div id="booking-steps">
+            <div class="book-step">
+                <div class="number">1</div>
+                <h4>Pick a date and time</h4>
+                <p>Check your calendar and figure out how a band is going to fit in at your event.</p>
+                <div class="line-step"></div>
+            </div>
+            <div class="book-step">
+                <div class="number">2</div>
+                <h4>Decide the set length</h4>
+                <p>We can play for up to 2 hours. This can split up however you like, e.g. 2 x 1 hour.</p>
+                <div class="line-step"></div>
+            </div>
+            <div class="book-step">
+                <div class="number">3</div>
+                <h4>Contact Us</h4>
+                <p>Email us at colonelspankys@gmail.com or drop us a message on Facebook!</p>
+            </div>
+        </div>
+    </section>
+    <section class="banner" id="faq-title">
+        <!-- background image -->
+        <h2>FAQs</h2>
+    </section>
+    <section id="faqs">
+        <h2>FAQs</h2>
+        <div id="questions">
+            <div class="question">
+                <div class="faq-img-container">
+                    <img src="images/line-up-faqs.jpg" alt="The band posing for a photo" id="pose-img">
+                </div>
+                <div class="question-text">
+                    <h4>Line-Up</h4>
+                    <h5>Do you have different line-up options?</h5>
+                    <p>We operate best as a 10-piece, and as such we never deliberately "shrink" the band. However, there are occasions when we do not have full duplication of horn players due to absences, and in those circumstances we can perform with fewer people. We never perform with less than 7 players though!</p>
+                </div>
+            </div>
+            <div class="question">
+                <div class="question-text">
+                    <h4>Gigs</h4>
+                    <h5>What is the most high profile gig you've performed?</h5>
+                    <p>St. John's College May Ball is allegedly the 7th best party in the world...and we've played at it every single year for the past 7 years!</p>
+                </div>
+                <div class="faq-img-container">
+                    <img src="images/faqs-gigs.jpg" alt="Spanky's playing at St. John's May Ball">
+                </div>
+            </div>
+            <div class="question">
+                <div class="faq-img-container">
+                    <img src="images/setup-faqs.jpg" id="setup-img" alt="The band's drum kit">
+                </div>
+                <div class="question-text">
+                    <h4>Setup</h4>
+                    <h5>How much time do you need to set up?</h5>
+                    <p>We need at least 30 minutes to set up, but we usually try to leave at least an hour to allow for last minute changes.</p>
+                </div>
+            </div>
+            <div class="question">
+                <div class="question-text">
+                    <h4>Equipment</h4>
+                    <h5>Do you have all of your own equipment (e.g. PA & lighting)?</h5>
+                    <p>Yes! We can provide everything we need for performing (amps, microphones, lighting, PA, drum kit), though we may need to charge extra for transportation of the gear and occasional hire fees.</p>
+                </div>
+                <div class="faq-img-container">
+                    <img src="images/faqs-equipment.jpg" id="medsoc-img" alt="Spanky's playing at MedSoc ball">
+                </div>
+            </div>
+            <div class="question">
+                <div class="faq-img-container">
+                    <img src="images/rhinocorn.jpg" alt="Spanky's posing at Rhinocorn studios">
+                </div>
+                <div class="question-text">
+                    <h4>Venues</h4>
+                    <h5>Which venues have you performed at in the past?</h5>
+                    <p>Cambridge Corn Exchange, almost every single Cambridge college's May Ball, Relevant Records (Cambridge), The Blue Moon (Cambridge) Knebworth House (Stevenage), Cambridge Pride, Strawberry Fair, Strawberries & Creem Festival, Ace Hotel London, Cambridge Junction, Henley Rowing Museum, De Vere Grand Connaught Rooms (London), Anstey Hall Hotel (Trumpington), + hundreds of others!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <h3>What people have said about us...</h3>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <i class="fas fa-heart fa-3x" style="color:#ea4c44"></i>
+                <h4>“I loved your set and it went down really well!”</h4>
+                <h5>2019</h5>
+                <p>Greg Butler - Pigs Big Ballroom, Camp Bestival</p>
+            </div>
+            <div class="testimonial">
+                <i class="fas fa-smile-beam fa-3x" style="color: #7c31b2"></i>
+                <h4>‘Spank my Colonel's lovely ensemble, you were amazing!’</h4>
+                <h5>2019</h5>
+                <p>Mark Littlewood - CEO, Business Leaders Network</p>
+            </div>
+            <div class="testimonial">
+                <i class="fas fa-music fa-3x" style="color: #3f9afc"></i>
+                <h4>"That set really was perfect for getting the entire park singing along!"</h4>
+                <h5>2019</h5>
+                <p>Rob Ferguson -Stage Manager, Cambridge Pride 2019</p>
+            </div>
+        </div>
+    </section>
+    <section class="banner" id="links">
+        <!-- background image -->
+        <h2>Connect With Us</h2>
+        <div id="social-media-links">
+            <a href="https://www.facebook.com/Colonel.Spankys.Love.Ensemble">
+                <div class="black-circle">
+                    <i class="fab fa-facebook-f fa-3x"></i>
+                </div>
+            </a>
+            <a href="https://www.twitter.com/colonelspankys">
+                <div class="black-circle">
+                    <i class="fab fa-twitter fa-3x"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/colonelspankysloveensemble">
+                <div class="black-circle">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </div>
+            </a>
+            <a href="https://soundcloud.com/user-469963949">
+                <div class="black-circle">
+                    <i class="fab fa-soundcloud fa-3x"></i>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/user/ColonelSpankys">
+                <div class="black-circle">
+                    <i class="fab fa-youtube fa-3x"></i>
+                </div>
+            </a>
+            <a href="https://colonelspankys.bandcamp.com">
+                <div class="black-circle">
+                    <i class="fab fa-bandcamp fa-3x"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-content">
+            <div id="logo-container">
+                <img src="images/logo.png" id="footer-logo" alt="Colonel Spanky's logo">
+            </div>
+            <div id="contact-us">
+                <div id="contact-details">
+                    <p><strong>Contact Us:</strong></p>
+                    <p><strong>t: </strong>07707393272</p>
+                    <p><strong>e: </strong>colonelspankys@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div id="divider">
+            <p>© 2021</p>
+            <p>Web design: <a href="https://www.github.com/joko208">joko208</a></p>
+        </div>
+    </footer>
 
 
 
+</body>
 
-  </body>
+
 </html>
