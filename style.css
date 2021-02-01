@@ -25,10 +25,21 @@ p {
 h3 {
     font-weight: normal;
     color: rgb(180, 187, 192);
+    text-align: center;
 }
 
 #what-we-do h3 {
     margin: 0 0 2em 0;
+}
+
+#press-kit a {
+    color: white;
+    text-decoration: none;
+}
+
+.booking-step-text a, footer a {
+    color: #34b4d1;
+    text-decoration: none;
 }
 
 h4 {
@@ -96,6 +107,10 @@ h2 {
 }
 
 /* Structural elements */
+
+body {
+    overflow-x: hidden;
+}
 
 section {
     margin: 2% 0;
@@ -229,6 +244,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     font-size: 1.2em;
+    width: 100%;
+    word-break: break-word;
 }
 
 #email-us {
@@ -347,6 +364,7 @@ footer {
     font-family: "Nunito";
     font-size: 1.5em;
     line-height: 0;
+    text-align: center;
 }
 
 #event-festivals {
@@ -478,4 +496,184 @@ footer {
 .number {
     border: solid thin;
     padding: 20px 23px;
+}
+
+/* Different screen sizes */
+
+@media only screen and (max-width: 850px) {
+
+    header nav {
+        width: 95vw;
+    }
+
+    #events {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #faq-title::before {
+        background-size: auto;
+    }
+
+    #links::before {
+        background-position: 64% 56px;
+    }
+
+    #get-the-party-started::before {
+        background-position: -127% 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    
+    #events {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #event-festivals {
+        grid-column-start: auto;
+    }
+
+    .event {
+        max-width: 40vw;
+    }
+
+    .event-img-container {
+        height: 40vw;
+    }
+
+    #how-to-book {
+        width: auto;
+    }
+    
+    #social-media-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    #footer-content {
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media only screen and (max-width: 675px) {
+
+    header nav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    #get-the-party-started::before {
+        background-position: 48% 0px;
+    }
+    
+    .faq-img-container {
+        display: none;
+    }
+
+    .question {
+        padding: 3%;
+    }
+
+    /* .expandable:hover {
+        background-color: lightblue;
+    } */
+
+    .expandable {
+        cursor: pointer;
+    }
+
+    .expandable:after {
+        content: '\002B'; /* "plus" sign */
+        color: black;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    .active:after {
+        content: "\2212";
+        cursor: pointer;
+    }
+
+    .question-text p {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+
+    #events {
+        display: block;
+        padding: 0 2em;
+    }
+
+    .event {
+        max-width: none;
+        flex-direction: row;
+    }
+
+    .event h4 {
+        line-height: normal;
+    }
+
+    #event-weddings, #event-balls, #event-festivals {
+        flex-direction: row-reverse;
+    }
+    
+    .book-step {
+        flex-direction: row;
+    }
+
+    #booking-steps {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .book-step h4 {
+        min-height: auto;
+    }
+
+    .line-step {
+        opacity: 0;
+    }
+
+    .number {
+        margin-right: 3%;
+    }
+
+    #testimonials-container {
+        padding: 0;
+    }
+
+    .testimonial {
+        max-width: none;
+    }
+
+    #links h2 {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .disposable {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

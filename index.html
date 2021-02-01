@@ -21,13 +21,13 @@
             <nav>
                 <a href="#home">Home</a>
                 <a href="#about-us">About</a>
-                <a href="#press-kit">Press</a>
+                <a href="#press-kit" class="disposable">Press</a>
                 <a href="#line-up">Line-Up</a>
                 <a href="#gallery">Gallery</a>
-                <a href="#book-us">Book Us</a>
-                <a href="#faq">FAQ</a>
+                <a href="#how-to-book">Book Us</a>
+                <a href="#faqs">FAQ</a>
                 <a href="#testimonials">Testimonials</a>
-                <a href="#links">Connect</a>
+                <a href="#links" class="disposable">Connect</a>
                 <a href="mailto:colonelspankys@gmail.com" id="email-link">
                     Email Us
                     <div id="email-us"></div>
@@ -55,54 +55,66 @@
         <h2>What We Do</h2>
         <h3>We've played at hundreds of events, including...</h3>
         <div id="events">
-            <div class="event">
+            <div class="event" id="event-weddings">
                 <div class="event-img-container">
                     <img src="images/wedding.jpg" alt="The bride and groom singing at one of our wedding gigs" id="wedding-img">
                 </div> 
-                <h4>Weddings</h4>
-                <p>Church weddings, marquee weddings, festival weddings, we love 'em all!</p>
+                <div class="event-text">
+                    <h4>Weddings</h4>
+                    <p>Church weddings, marquee weddings, festival weddings, we love 'em all!</p>
+                </div>
             </div>
             <div class="event">
                 <div class="event-img-container">
                     <img src="images/bop.jpeg" alt="A bop at Clare College, c.2013" id="bop-img">
                 </div>
-                <h4>Bops</h4>
-                <p>Cambridge colleges are renowned for their student socials, known as "bops".</p>
+                <div class="event-text">
+                    <h4>Bops</h4>
+                    <p>Cambridge colleges are renowned for their student socials, known as "bops".</p>
+                </div>
             </div>
-            <div class="event">
+            <div class="event" id="event-balls">
                 <div class="event-img-container">
                     <img src="images/ball.webp" alt="Masked ball-goers" id="ball-img">
                 </div>
-                <h4>May Balls</h4>
-                <p>A typical "May Week" (usually in June) will see us play up to 25 gigs in one week!</p>
+                <div class="event-text">
+                    <h4>May Balls</h4>
+                    <p>A typical "May Week" (usually in June) will see us play up to 25 gigs in one week!</p>
+                </div>
             </div>
             <div class="event">
                 <div class="event-img-container">
                     <img src="images/club.webp" alt="A club night" id="club-img">
                 </div>
-                <h4>Club Nights</h4>
-                <p>There's nothing like the sweaty thrill of live music to bring a night out to another level!</p>
+                <div class="event-text">
+                    <h4>Club Nights</h4>
+                    <p>There's nothing like the sweaty thrill of live music to bring a night out to another level!</p>
+                </div>
             </div>
             <div class="event" id="event-festivals">
                 <div class="event-img-container">
                     <img src="images/festival.jpeg" alt="Hands pumping in front of a festival stage" id="fest-img">
                 </div>
-                <h4>Festivals</h4>
-                <p>The roar of the crowd under the stars...need we say more?</p>
+                <div class="event-text">
+                    <h4>Festivals</h4>
+                    <p>The roar of the crowd under the stars...need we say more?</p>
+                </div>
             </div>
             <div class="event">
                 <div class="event-img-container">
                     <img src="images/work-socials.jpeg" alt="3 women clinking glasses at a Christmas party" id="work-img">
                 </div>
-                <h4>Work Socials</h4>
-                <p>The perfect way to let off some steam with your colleagues!</p>
+                <div class="event-text">
+                    <h4>Work Socials</h4>
+                    <p>The perfect way to let off some steam with your colleagues!</p>
+                </div>
             </div>
         </div>
     </section>
     <section class="banner" id="press-kit">
         <!-- background image -->
         <h2>Press Kit</h2>
-        <h3>Email us for more information!</h3>
+        <h3><a href="mailto:colonelspankys@gmail.com">Email us for more information!</a></h3>
     </section>
     <section id="line-up">
         <!-- background image -->
@@ -162,20 +174,26 @@
         <div id="booking-steps">
             <div class="book-step">
                 <div class="number">1</div>
-                <h4>Pick a date and time</h4>
-                <p>Check your calendar and figure out how a band is going to fit in at your event.</p>
+                <div class="booking-step-text">
+                    <h4>Pick a date and time</h4>
+                    <p>Check your calendar and figure out how a band is going to fit in at your event.</p>
+                </div>
                 <div class="line-step"></div>
             </div>
             <div class="book-step">
                 <div class="number">2</div>
-                <h4>Decide the set length</h4>
-                <p>We can play for up to 2 hours. This can split up however you like, e.g. 2 x 1 hour.</p>
+                <div class="booking-step-text">
+                    <h4>Decide the set length</h4>
+                    <p>We can play for up to 2 hours. This can split up however you like, e.g. 2 x 1 hour.</p>
+                </div>
                 <div class="line-step"></div>
             </div>
             <div class="book-step">
                 <div class="number">3</div>
-                <h4>Contact Us</h4>
-                <p>Email us at colonelspankys@gmail.com or drop us a message on Facebook!</p>
+                <div class="booking-step-text">
+                    <h4>Contact Us</h4>
+                    <p>Email us at <a href="mailto:colonelspankys@gmail.com">colonelspankys@gmail.com</a> or drop us a message on <a href="https://www.facebook.com/colonel.spankys.love.ensemble">Facebook</a>!</p>
+                </div>
             </div>
         </div>
     </section>
@@ -192,14 +210,14 @@
                 </div>
                 <div class="question-text">
                     <h4>Line-Up</h4>
-                    <h5>Do you have different line-up options?</h5>
+                    <h5 class="expandable">Do you have different line-up options?</h5>
                     <p>We operate best as a 10-piece, and as such we never deliberately "shrink" the band. However, there are occasions when we do not have full duplication of horn players due to absences, and in those circumstances we can perform with fewer people. We never perform with less than 7 players though!</p>
                 </div>
             </div>
             <div class="question">
                 <div class="question-text">
                     <h4>Gigs</h4>
-                    <h5>What is the most high profile gig you've performed?</h5>
+                    <h5 class="expandable">What is the most high profile gig you've performed?</h5>
                     <p>St. John's College May Ball is allegedly the 7th best party in the world...and we've played at it every single year for the past 7 years!</p>
                 </div>
                 <div class="faq-img-container">
@@ -212,14 +230,14 @@
                 </div>
                 <div class="question-text">
                     <h4>Setup</h4>
-                    <h5>How much time do you need to set up?</h5>
+                    <h5 class="expandable">How much time do you need to set up?</h5>
                     <p>We need at least 30 minutes to set up, but we usually try to leave at least an hour to allow for last minute changes.</p>
                 </div>
             </div>
             <div class="question">
                 <div class="question-text">
                     <h4>Equipment</h4>
-                    <h5>Do you have all of your own equipment (e.g. PA & lighting)?</h5>
+                    <h5 class="expandable">Do you have all of your own equipment (e.g. PA & lighting)?</h5>
                     <p>Yes! We can provide everything we need for performing (amps, microphones, lighting, PA, drum kit), though we may need to charge extra for transportation of the gear and occasional hire fees.</p>
                 </div>
                 <div class="faq-img-container">
@@ -232,7 +250,7 @@
                 </div>
                 <div class="question-text">
                     <h4>Venues</h4>
-                    <h5>Which venues have you performed at in the past?</h5>
+                    <h5 class="expandable">Which venues have you performed at in the past?</h5>
                     <p>Cambridge Corn Exchange, almost every single Cambridge college's May Ball, Relevant Records (Cambridge), The Blue Moon (Cambridge) Knebworth House (Stevenage), Cambridge Pride, Strawberry Fair, Strawberries & Creem Festival, Ace Hotel London, Cambridge Junction, Henley Rowing Museum, De Vere Grand Connaught Rooms (London), Anstey Hall Hotel (Trumpington), + hundreds of others!</p>
                 </div>
             </div>
@@ -307,7 +325,7 @@
                 <div id="contact-details">
                     <p><strong>Contact Us:</strong></p>
                     <p><strong>t: </strong>07707393272</p>
-                    <p><strong>e: </strong>colonelspankys@gmail.com</p>
+                    <p><strong>e: </strong><a href="mailto:colonelspankys@gmail.com">colonelspankys@gmail.com</a></p>
                 </div>
             </div>
         </div>
