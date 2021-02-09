@@ -6,4 +6,4 @@ This is the website for Colonel Spanky's Love Ensemble, a 10-piece band in Cambr
 
 You can view the website at the following link:
 
-:star: [www.colonelspankys.co.uk](www.colonelspankys.co.uk) :star:
+:star: [http://www.colonelspankys.co.uk](www.colonelspankys.co.uk) :star:
