@@ -245,7 +245,7 @@ footer {
     justify-content: center;
     font-size: 1.2em;
     width: 100%;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 #email-us {
