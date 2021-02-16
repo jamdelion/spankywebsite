@@ -36,7 +36,7 @@ for (let i = 0; i < expandables.length; i++) {
 
 });
 
-function(){
+function getMetaData(){
   var data = {
       "@context": "http://schema.org",
       "@type": "MusicGroup",
