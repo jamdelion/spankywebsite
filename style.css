@@ -42,9 +42,14 @@ h3 {
     text-decoration: none;
 }
 
-h4 {
+h4, .md-faq {
     font-weight: normal;
     font-size: 1.2em;
+}
+
+.md-faq {
+    text-align: left;
+    color: black;
 }
 
 .question-text h3, .question-text p {
