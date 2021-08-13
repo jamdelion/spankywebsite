@@ -1,697 +1,768 @@
 /* Text elements */
 
-h1, h2, h3, h4, h5 {
-    font-family: "Montserrat";
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat";
 }
 
 h1 {
-    text-align: center;
-    font-family: "Fredoka One";
-    font-size: 4em;
-    text-shadow: lightblue 1px 6px 2px;
-    opacity: 0.9;
-    text-transform: uppercase;
-    margin-bottom: 1%;
+  text-align: center;
+  font-family: "Fredoka One";
+  font-size: 4em;
+  text-shadow: lightblue 1px 6px 2px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  margin-bottom: 1%;
 }
 
 p {
-    font-family: "Titillium Web";
-    color: rgb(80, 85, 92);
-    font-size: 1em;
-    letter-spacing: -0.3px;
-    line-height: 1.45;
+  font-family: "Titillium Web";
+  color: rgb(80, 85, 92);
+  font-size: 1em;
+  letter-spacing: -0.3px;
+  line-height: 1.45;
 }
 
 h3 {
-    font-weight: normal;
-    color: rgb(86, 89, 92);
-    text-align: center;
+  font-weight: normal;
+  color: rgb(86, 89, 92);
+  text-align: center;
 }
 
 #what-we-do h3 {
-    margin: 0 0 2em 0;
+  margin: 0 0 2em 0;
 }
 
 #press-kit a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-.booking-step-text a, footer a {
-    color: #004ad4;
-    text-decoration: none;
+.booking-step-text a,
+footer a {
+  color: #004ad4;
+  text-decoration: none;
 }
 
-h4, .md-faq {
-    font-weight: normal;
-    font-size: 1.2em;
+h4,
+.md-faq {
+  font-weight: normal;
+  font-size: 1.2em;
 }
 
 .md-faq {
-    text-align: left;
-    color: black;
+  text-align: left;
+  color: black;
 }
 
-.question-text h3, .question-text p {
-    margin: 0;
+.question-text h3,
+.question-text p {
+  margin: 0;
 }
 
 .question-text h3 {
-    height: 40px;
-    font-weight: normal;
-    font-size: 1.2em;
+  height: 40px;
+  font-weight: normal;
+  font-size: 1.2em;
 }
 
-h5, .sm-faq {
-    font-weight: normal;
-    font-family: "Titillium Web";
-    font-size: 1.2em;
-    letter-spacing: 0.3px;
-    color: rgb(80, 85, 92);
-    margin: 0;
-    padding: 0 0 1% 0;
+h5,
+.sm-faq {
+  font-weight: normal;
+  font-family: "Titillium Web";
+  font-size: 1.2em;
+  letter-spacing: 0.3px;
+  color: rgb(80, 85, 92);
+  margin: 0;
+  padding: 0 0 1% 0;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 3.8em;
-    text-align: center;
+  text-transform: uppercase;
+  font-size: 3.8em;
+  text-align: center;
 }
 
-#press-kit h3, #get-the-party-started h3 {
-    color: white;
+#press-kit h3,
+#get-the-party-started h3 {
+  color: white;
 }
 
-#get-the-party-started h2, #get-the-party-started h3, #press-kit h2, #press-kit h3, #faq-title h2, #links h2, #social-media-links{
-    position: relative;
-    z-index: 2;
+#get-the-party-started h2,
+#get-the-party-started h3,
+#press-kit h2,
+#press-kit h3,
+#faq-title h2,
+#links h2,
+#social-media-links {
+  position: relative;
+  z-index: 2;
 }
 
-#gallery h2, #line-up h2, #how-to-book h2, #faqs h2, #testimonials h2, #what-we-do h2 {
-    color: rgb(29, 32, 35);
-    font-size: 2.4em;
-    font-weight:300;
+#gallery h2,
+#line-up h2,
+#how-to-book h2,
+#faqs h2,
+#testimonials h2,
+#what-we-do h2 {
+  color: rgb(29, 32, 35);
+  font-size: 2.4em;
+  font-weight: 300;
 }
 
 .band-member p {
-    max-width: 82%;
-    margin: 0 auto;
-    letter-spacing: -0.4px;
+  max-width: 82%;
+  margin: 0 auto;
+  letter-spacing: -0.4px;
 }
 
 .testimonial h4 {
-    font-family: "Nunito";
-    font-size: 1.1em;
-    line-height: 1.45;
-    min-height: 102px;
-    margin-bottom: 0;
+  font-family: "Nunito";
+  font-size: 1.1em;
+  line-height: 1.45;
+  min-height: 102px;
+  margin-bottom: 0;
 }
 
 .testimonial {
-    text-align: center;
-    margin: 10px;
-    max-width: 20vw;
+  text-align: center;
+  margin: 10px;
+  max-width: 20vw;
 }
 
 .sr-only {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* Structural elements */
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 section {
-    margin: 2% 0;
+  margin: 2% 0;
 }
 
-body, #about-us, #what-we-do, #line-up, #gallery, #how-to-book, #testimonials,  #faqs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body,
+#about-us,
+#what-we-do,
+#line-up,
+#gallery,
+#how-to-book,
+#testimonials,
+#faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: "Titillium web";
-    text-transform: uppercase;
-    width: 76vw;
-    max-width: 860px;
-    padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Titillium web";
+  text-transform: uppercase;
+  width: 76vw;
+  max-width: 860px;
+  padding: 10px 0;
 }
 
 header a {
-    color:black;
-    opacity: 0.7;
-    text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 header a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 #about-us {
-    margin: 2% 10%;
-    text-align: center;
-    max-width: 70ch;
+  margin: 2% 10%;
+  text-align: center;
+  max-width: 70ch;
 }
 
 #faqs {
-    margin: 2%;
+  margin: 2%;
 }
 
 .banner {
-    width: 100%;
-    height: 55vh;
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 55vh;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .banner::before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-attachment: fixed;
-    background-size: cover;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0%;
-    display: flex;
-    justify-content: center;
-    z-index: 5;
-    background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  background-color: white;
 }
 
 #events {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 auto;
-    padding: 0 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  padding: 0 4em;
 }
 
 #band-members {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
 
-#booking-steps, #testimonials-container {
-    display: flex;
-    margin: 0 auto;
-    padding: 0 5em;
+#booking-steps,
+#testimonials-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5em;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #footer-content {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 #front-4-pics {
-    display: flex;
-    justify-content: center;
-    max-width: 100vw;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  margin-top: 20px;
 }
 
-#get-the-party-started, #press-kit {
-    background: #7984e8;
-    color: white;
+#get-the-party-started,
+#press-kit {
+  background: #7984e8;
+  color: white;
 }
 
 #contact-us {
-    width: 30vw;
-    display: flex;
+  width: 30vw;
+  display: flex;
 }
 
 #contact-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.2em;
-    width: 100%;
-    word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2em;
+  width: 100%;
+  word-break: break-all;
 }
 
 #email-us {
-    position: absolute;
-    height: 27px;
-    width: 114%;
-    right: -15%;
-    border-radius: 9%;
-    top: -11%;
-    border: solid lightgray;
-    background-color: lightgray;
-    z-index: -1;
+  position: absolute;
+  height: 27px;
+  width: 114%;
+  right: -15%;
+  border-radius: 9%;
+  top: -11%;
+  border: solid lightgray;
+  background-color: lightgray;
+  z-index: -1;
 }
 
 #email-link:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 #email-link {
-    opacity: 1;
-    position: relative;
-    font-style: "Nunito";
-    font-weight: bold;
+  opacity: 1;
+  position: relative;
+  font-style: "Nunito";
+  font-weight: bold;
 }
 
 /* Image Elements */
 
 #front-4-pics img {
-    width: 25%;
-    margin: 3px;
-    overflow: hidden;
-    height: 80vh;
-    object-fit: cover;
+  width: 25%;
+  margin: 3px;
+  overflow: hidden;
+  height: 80vh;
+  object-fit: cover;
 }
 
 #gallery-container img {
-    max-width: 40vw;
+  max-width: 40vw;
 }
 
 #get-the-party-started::before {
-    background-image: url("images/get-party-started.jpg");
-    background-position: -48% 0px;
-    opacity: 0.8;
+  background-image: url("images/get-party-started.jpg");
+  background-position: -48% 0px;
+  opacity: 0.8;
 }
 
 #press-kit::before {
-    background-image: url("images/press-kit.jpg");
-    background-position: 27% -46px;
+  background-image: url("images/press-kit.jpg");
+  background-position: 27% -46px;
 }
 
 #faq-title::before {
-    background-image: url("images/faqs.jpg");
-    background-size: 160%;
-    background-position: 34% 38%;
+  background-image: url("images/faqs.jpg");
+  background-size: 160%;
+  background-position: 34% 38%;
 }
 
 #links::before {
-    background-image: url("images/connect.jpg");
+  background-image: url("images/connect.jpg");
 }
 
-#links, #faq-title {
-    color: white;
+#links,
+#faq-title {
+  color: white;
 }
 
 /* What We Do section */
 
 #what-we-do {
-    max-width: 1600px;
+  max-width: 1600px;
 }
 
 .event {
-    max-width: 25vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .event-img-container {
-    height: 20vw;
-    width: 95%;
-    margin: 3px;
-    overflow: hidden;
-    object-fit: cover;
+  height: 20vw;
+  width: 95%;
+  margin: 3px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .event img {
-    width: 100%;
+  width: 100%;
 }
 
 #wedding-img {
-    object-position: 0vh -5vw;
+  object-position: 0vh -5vw;
 }
 
 #bop-img {
-    width: 195%;
-    object-position: -8vw -6vh;
+  width: 195%;
+  object-position: -8vw -6vh;
 }
 
-#ball-img, #club-img, #fest-img {
-    width: 115%;
+#ball-img,
+#club-img,
+#fest-img {
+  width: 115%;
 }
 
 #work-img {
-    width: 200%;
-    object-position: -9vw -6vh;
+  width: 200%;
+  object-position: -9vw -6vh;
 }
 
 .event p {
-    text-align: center;
-    margin: 0 8px 35px 8px;
+  text-align: center;
+  margin: 0 8px 35px 8px;
 }
 
 .event h4 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: "Nunito";
-    font-size: 1.5em;
-    line-height: 0;
-    text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Nunito";
+  font-size: 1.5em;
+  line-height: 0;
+  text-align: center;
 }
 
 #event-festivals {
-    grid-column-start: 2;
+  grid-column-start: 2;
 }
 
 /* FAQ section */
 
-.question, #footer-content {
-    display: flex;
+.question,
+#footer-content {
+  display: flex;
 }
 
 .question {
-    max-width: 1200px;
+  max-width: 1200px;
 }
 
 .faq-img-container {
-    overflow: hidden;
-    max-height: 320px;
-    max-width: 46%;
-    min-width: 310px;
-    margin: 1% 2%;
+  overflow: hidden;
+  max-height: 320px;
+  max-width: 46%;
+  min-width: 310px;
+  margin: 1% 2%;
 }
 
 .question img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .question-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2%;
 }
 
 #setup-img {
-    object-position: 0px -147px;
-    max-width: 550px;
+  object-position: 0px -147px;
+  max-width: 550px;
 }
 
 #medsoc-img {
-    width: 120%;
-    object-position: -60px 0px;
+  width: 120%;
+  object-position: -60px 0px;
 }
 
 #pose-img {
-    width: 145%;
-    object-position: -74px -31px;
+  width: 145%;
+  object-position: -74px -31px;
 }
 
 /* Links section */
 
 #footer-logo {
-    width: 30vw;
+  width: 30vw;
 }
 
 #divider {
-    width: 90vw;
-    height: 30px;
-    border-top: solid thin black;
-    display: flex;
-    justify-content: space-between;
-} 
+  width: 90vw;
+  height: 30px;
+  border-top: solid thin black;
+  display: flex;
+  justify-content: space-between;
+}
 
 #social-media-links i {
-    
-    position: absolute;
-    top: 49%;
-    left: 28%;
-    line-height: 0;
+  position: absolute;
+  top: 49%;
+  left: 28%;
+  line-height: 0;
 }
 
 #social-media-links {
-    display: flex;
+  display: flex;
 }
 
 #social-media-links a {
-    color: white;
+  color: white;
 }
 
 .black-circle {
-    border-radius: 50%;
-    background-color: black;
-    width: 6.5em;
-    position: relative;
-    height: 6.5em;
-    margin: 0 5px;
-    transition: transform ease 0.2s;
-    cursor: pointer;
+  border-radius: 50%;
+  background-color: black;
+  width: 6.5em;
+  position: relative;
+  height: 6.5em;
+  margin: 0 5px;
+  transition: transform ease 0.2s;
+  cursor: pointer;
 }
 
 .black-circle:hover {
-    transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 /* Book Us section */
 
 #how-to-book {
-    position: relative;
-    width: 75vw;
+  position: relative;
+  width: 75vw;
 }
 
 .book-step {
-    padding: 0 0.6em;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    word-wrap: anywhere;
-    position: relative;
+  padding: 0 0.6em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: anywhere;
+  position: relative;
 }
 
 .book-step h3 {
-    font-weight: normal;
-    font-size: 1.2em;
-    min-height: 48px;
+  font-weight: normal;
+  font-size: 1.2em;
+  min-height: 48px;
 }
 
 .line-step {
-    position: absolute;
-    top: 27px;
-    left: calc(54% - -39px);
-    width: calc(90% - 80px);
-    height: 1px;
-    border-right: 0;
-    border-top: 1px solid;
-    opacity: 0.3;
+  position: absolute;
+  top: 27px;
+  left: calc(54% - -39px);
+  width: calc(90% - 80px);
+  height: 1px;
+  border-right: 0;
+  border-top: 1px solid;
+  opacity: 0.3;
 }
 
 .number {
-    border: solid thin;
-    padding: 20px 23px;
+  border: solid thin;
+  padding: 20px 23px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gig {
+  margin-bottom: 2rem;
+  font-family: "Montserrat";
+}
+
+.gig--date {
+  margin-right: 1rem;
+  border: solid 1px purple;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 5rem;
+}
+
+.gig--details {
+  margin-right: 1rem;
+}
+
+.gig--title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.gig--tickets {
+  border: solid 1px purple;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 7rem;
 }
 
 /* Different screen sizes */
 
 @media only screen and (max-width: 850px) {
+  header nav {
+    width: 95vw;
+  }
 
-    header nav {
-        width: 95vw;
-    }
+  #events {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    #events {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    #faq-title::before {
-        background-size: auto;
-    }
+  #faq-title::before {
+    background-size: auto;
+  }
 
-    #links::before {
-        background-position: 64% 56px;
-    }
+  #links::before {
+    background-position: 64% 56px;
+  }
 
-    #get-the-party-started::before {
-        background-position: -127% 0px;
-    }
-    
+  #get-the-party-started::before {
+    background-position: -127% 0px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-    
-    #events {
-        grid-template-columns: 1fr 1fr;
-    }
+  #events {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    #event-festivals {
-        grid-column-start: auto;
-    }
+  #event-festivals {
+    grid-column-start: auto;
+  }
 
-    .event {
-        max-width: 40vw;
-    }
+  .event {
+    max-width: 40vw;
+  }
 
-    .event-img-container {
-        height: 40vw;
-    }
+  .event-img-container {
+    height: 40vw;
+  }
 
-    #how-to-book {
-        width: auto;
-    }
-    
-    #social-media-links {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-    }
+  #how-to-book {
+    width: auto;
+  }
 
-    #footer-content {
-        justify-content: space-evenly;
-    }
-    
+  #social-media-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  #footer-content {
+    justify-content: space-evenly;
+  }
 }
 
 @media only screen and (max-width: 675px) {
+  header nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+  }
 
-    header nav {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        text-align: center;
-    }
+  h1 {
+    font-size: 3em;
+  }
 
-    h1 {
-        font-size: 3em;
-    }
+  #get-the-party-started::before {
+    background-position: 48% 0px;
+  }
 
-    #get-the-party-started::before {
-        background-position: 48% 0px;
-    }
-    
-    .faq-img-container {
-        display: none;
-    }
+  .faq-img-container {
+    display: none;
+  }
 
-    .question {
-        padding: 3%;
-    }
+  .question {
+    padding: 3%;
+  }
 
-    /* .expandable:hover {
+  /* .expandable:hover {
         background-color: lightblue;
     } */
 
-    .expandable {
-        cursor: pointer;
-    }
+  .expandable {
+    cursor: pointer;
+  }
 
-    .expandable:after {
-        content: '\002B'; /* "plus" sign */
-        color: black;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;
-        cursor: pointer;
-    }
+  .expandable:after {
+    content: "\002B"; /* "plus" sign */
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+  }
 
-    .active:after {
-        content: "\2212";
-        cursor: pointer;
-    }
+  .active:after {
+    content: "\2212";
+    cursor: pointer;
+  }
 
-    .question-text p {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-    }
-    
+  .question-text p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 }
 
 @media only screen and (max-width: 550px) {
+  #events {
+    display: block;
+    padding: 0 2em;
+  }
 
-    #events {
-        display: block;
-        padding: 0 2em;
-    }
+  .event {
+    max-width: none;
+    flex-direction: row;
+  }
 
-    .event {
-        max-width: none;
-        flex-direction: row;
-    }
+  .event h4 {
+    line-height: normal;
+  }
 
-    .event h4 {
-        line-height: normal;
-    }
+  #event-weddings,
+  #event-balls,
+  #event-festivals {
+    flex-direction: row-reverse;
+  }
 
-    #event-weddings, #event-balls, #event-festivals {
-        flex-direction: row-reverse;
-    }
-    
-    .book-step {
-        flex-direction: row;
-    }
+  .book-step {
+    flex-direction: row;
+  }
 
-    #booking-steps {
-        flex-direction: column;
-        padding: 0;
-    }
+  #booking-steps {
+    flex-direction: column;
+    padding: 0;
+  }
 
-    .book-step h3 {
-        min-height: auto;
-    }
+  .book-step h3 {
+    min-height: auto;
+  }
 
-    .line-step {
-        opacity: 0;
-    }
+  .line-step {
+    opacity: 0;
+  }
 
-    .number {
-        margin-right: 3%;
-    }
+  .number {
+    margin-right: 3%;
+  }
 
-    #testimonials-container {
-        padding: 0;
-    }
+  #testimonials-container {
+    padding: 0;
+  }
 
-    .testimonial {
-        max-width: none;
-    }
+  .testimonial {
+    max-width: none;
+  }
 
-    #links h2 {
-        margin: 0;
-    }
+  #links h2 {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 450px) {
+  .disposable {
+    display: none;
+  }
 
-    .disposable {
-        display: none;
-    }
-
-    header nav {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
