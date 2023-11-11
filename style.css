@@ -302,24 +302,23 @@ footer {
 }
 
 #get-the-party-started::before {
-    background-image: url("images/get-party-started.jpg");
+    background-image: url("images/emma-mb-2.jpg");
     background-position: -48% 0px;
     opacity: 0.8;
 }
 
 #press-kit::before {
-    background-image: url("images/press-kit.jpg");
+    background-image: url("images/emma-mb-3.jpg");
     background-position: 27% -46px;
 }
 
 #faq-title::before {
-    background-image: url("images/faqs.jpg");
-    background-size: 160%;
+    background-image: url("images/emma-mb.jpg");
     background-position: 34% 38%;
 }
 
 #links::before {
-    background-image: url("images/connect.jpg");
+    background-image: url("images/smoky-crowd.jpg");
 }
 
 #links, #faq-title {
@@ -424,7 +423,7 @@ footer {
 
 #medsoc-img {
     width: 120%;
-    object-position: -60px 0px;
+    object-position: -40px -60px;
 }
 
 #pose-img {
